@@ -1,0 +1,21 @@
+
+{
+    "short_name": "Chatbot",
+    "name": "Chatbot Web Application",
+    "icons": [
+        {
+            "src": "BotIcon_Boy.png",
+            "sizes": "435x435",
+            "type": "image/png"
+        },
+        {
+            "src": "BotIcon_Girl.png",
+            "sizes": "435x435",
+            "type": "image/png"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff"
+}

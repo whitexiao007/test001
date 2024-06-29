@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Web App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <select id="bot-selector">
+        <option value="bot1">Bot1</option>
+        <option value="bot2">Bot2</option>
+    </select>   
+    <img id="profile-picture" src="" alt="Bot Profile" style="display:none; width: 100px; height: 100px;"> 
+    <div id="system-instructions">
+        <input type="text" id="instruction-input" placeholder="Enter system instructions...">
+    </div>
+    <div id="chat-history"></div>
+    <input type="text" id="user-input" placeholder="Online. Enter your prompt" onkeyup="sendMessage(event)">
+
+    <script src="app.js"></script>
+</body>
+</html>
